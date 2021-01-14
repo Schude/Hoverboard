@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 36px;
+  font-family: cursive;
+  background-color: #201f1f;
+  color: whitesmoke;
+}
+
+.hoverboard-container {
+  background-color: rgb(10, 8, 8);
+  margin: 0 auto;
+  width: 60%;
+  margin: 5rem auto;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30px);
+}
+
+.square {
+  background-color: #161313;
+  box-shadow: 0 0 3px #000;
+  height: 28px;
+  width: 28px;
+  margin: 2px;
+  transition: 0.8s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
